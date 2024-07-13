@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+    
+        body {
+            width: 1280px;
+
+
+        }
+        nav {
+            width: 1280px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            gap: 675px;
+            
+        }
+        h5 {
+            display: inline;
+            font-size: 20px;
+            margin-inline-start: 8px;
+           
+        }
+        .logo {
+            width: 154px;
+            height: 35px;
+            margin-block-start: 32.5px;
+            margin-inline-start: 100px;
+        }
+        .signup {
+            width: 251px;
+            height: 54px;
+            margin-block-start: 23px;
+        }
+        .signup a {
+            text-decoration: none;
+            color: #2D2D2D;
+            font-size: 18px;
+        }
+        .signup button {
+            width: 153px;
+            height: 54px;
+            background-color: #3366FF;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            margin-inline-start: 30px;
+        }
+        .header {
+            width: 1280px;
+            height: 557px;
+            background-color: #F7F5FD;
+            
+        }
+        .header h1 {
+            margin-block-start: 122px;
+            margin-inline-start: 255px;
+            position: absolute;
+            font-size: 80px;
+            font-weight: 500;
+        }
+        @media screen and (max-width: 361px){
+         body {
+            width: 360px;
+         }  
+            
+         nav {
+            width: 360px;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+           
+            
+        }
+        .logo {
+            margin-inline-start: 20px;
+        }
+        .signup {
+            display: none;
+        }
+        .header {
+            width: 360px;
+            height: 602px;
+            background-color: #F7F5FD;
+            
+        }
+        .header h1 {
+            position: absolute;
+            margin-block-start: 80px;
+            margin-inline-start: 25px;
+            width: 310px;
+            height: 120px;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+                }
+
+        
+
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <section class="logo">
+            <img src="logo.png" alt="">
+                <h5>PETWORLD</h5>
+        </section>
+        <section class="signup">
+            <a href="#">Signup</a>
+            <button>Log In</button>
+
+        </section>
+    </nav>
+    <header class="header">
+        <h1>
+            Pet Store & Beyond
+        </h1>
+    </header>
+</body>
+</html>
